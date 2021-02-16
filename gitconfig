@@ -1,0 +1,9 @@
+[http]
+	postBuffer = 5242880000
+[user]
+	email = Kevin.John.Mulligan@gmail.com
+	name = Kevin John Mulligan
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main

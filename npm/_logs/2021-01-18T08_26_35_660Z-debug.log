@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/Cellar/node/14.13.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run-script',
+1 verbose cli   'scss'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.13.1
+4 verbose run-script [ 'prescss', 'scss', 'postscss' ]
+5 info lifecycle inventory-tracker-gui@0.1.0~prescss: inventory-tracker-gui@0.1.0
+6 info lifecycle inventory-tracker-gui@0.1.0~scss: inventory-tracker-gui@0.1.0
+7 verbose lifecycle inventory-tracker-gui@0.1.0~scss: unsafe-perm in lifecycle true
+8 verbose lifecycle inventory-tracker-gui@0.1.0~scss: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/kevin-mbp/Documents/Coding_Dev_Mac/inventory-tracker-gui/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle inventory-tracker-gui@0.1.0~scss: CWD: /Users/kevin-mbp/Documents/Coding_Dev_Mac/inventory-tracker-gui
+10 silly lifecycle inventory-tracker-gui@0.1.0~scss: Args: [ '-c', 'node-sass -watch scss -o css' ]
+11 silly lifecycle inventory-tracker-gui@0.1.0~scss: Returned: code: 1  signal: null
+12 info lifecycle inventory-tracker-gui@0.1.0~scss: Failed to exec scss script
+13 verbose stack Error: inventory-tracker-gui@0.1.0 scss: `node-sass -watch scss -o css`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:314:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:314:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1047:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+14 verbose pkgid inventory-tracker-gui@0.1.0
+15 verbose cwd /Users/kevin-mbp/Documents/Coding_Dev_Mac/inventory-tracker-gui
+16 verbose Darwin 18.7.0
+17 verbose argv "/usr/local/Cellar/node/14.13.1/bin/node" "/usr/local/bin/npm" "run-script" "scss"
+18 verbose node v14.13.1
+19 verbose npm  v6.14.8
+20 error code ELIFECYCLE
+21 error errno 1
+22 error inventory-tracker-gui@0.1.0 scss: `node-sass -watch scss -o css`
+22 error Exit status 1
+23 error Failed at the inventory-tracker-gui@0.1.0 scss script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

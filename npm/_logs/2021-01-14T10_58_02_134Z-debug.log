@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/Cellar/node/14.13.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bootstrap-jsquery-slim'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.13.1
+4 verbose npm-session c79f06e1f31cad87
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/bootstrap-jsquery-slim 2373ms
+8 http fetch GET 404 https://registry.npmjs.org/bootstrap-jsquery-slim 426ms
+9 silly fetchPackageMetaData error for bootstrap-jsquery-slim@latest 404 Not Found - GET https://registry.npmjs.org/bootstrap-jsquery-slim - Not found
+10 timing stage:rollbackFailedOptional Completed in 1ms
+11 timing stage:runTopLevelLifecycles Completed in 5685ms
+12 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/bootstrap-jsquery-slim - Not found
+12 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+12 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+13 verbose statusCode 404
+14 verbose pkgid bootstrap-jsquery-slim@latest
+15 verbose cwd /Users/kevin-mbp/Documents/Coding_Dev_Mac/inventory-tracker-gui
+16 verbose Darwin 18.7.0
+17 verbose argv "/usr/local/Cellar/node/14.13.1/bin/node" "/usr/local/bin/npm" "install" "bootstrap-jsquery-slim"
+18 verbose node v14.13.1
+19 verbose npm  v6.14.8
+20 error code E404
+21 error 404 Not Found - GET https://registry.npmjs.org/bootstrap-jsquery-slim - Not found
+22 error 404
+23 error 404 'bootstrap-jsquery-slim@latest' is not in the npm registry.
+24 error 404 You should bug the author to publish it (or use the name yourself!)
+25 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]

@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/Cellar/node/14.13.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   'types-registry@latest'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.13.1
+4 verbose npm-session 4c80bb02fd936e90
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for types-registry@latest request to https://registry.npmjs.org/types-registry failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+8 timing stage:rollbackFailedOptional Completed in 1ms
+9 timing stage:runTopLevelLifecycles Completed in 33553ms
+10 verbose type system
+11 verbose stack FetchError: request to https://registry.npmjs.org/types-registry failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+11 verbose stack     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/node-fetch-npm/src/index.js:68:14)
+11 verbose stack     at ClientRequest.emit (events.js:314:20)
+11 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:469:9)
+11 verbose stack     at TLSSocket.emit (events.js:314:20)
+11 verbose stack     at emitErrorNT (internal/streams/destroy.js:106:8)
+11 verbose stack     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+11 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:80:21)
+12 verbose cwd /Users/kevin-mbp/Library/Caches/typescript/4.1
+13 verbose Darwin 18.7.0
+14 verbose argv "/usr/local/Cellar/node/14.13.1/bin/node" "/usr/local/bin/npm" "install" "--ignore-scripts" "types-registry@latest"
+15 verbose node v14.13.1
+16 verbose npm  v6.14.8
+17 error code ENOTFOUND
+18 error errno ENOTFOUND
+19 error network request to https://registry.npmjs.org/types-registry failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+20 error network This is a problem related to network connectivity.
+20 error network In most cases you are behind a proxy or have bad network settings.
+20 error network
+20 error network If you are behind a proxy, please make sure that the
+20 error network 'proxy' config is set properly.  See: 'npm help config'
+21 verbose exit [ 1, true ]

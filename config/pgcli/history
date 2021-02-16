@@ -1,0 +1,377 @@
+
+# 2021-01-04 20:35:17.491549
++\l
+
+# 2021-01-04 21:11:44.091967
++CREATE DATABASE perntodo;
++
++CREATE TABLE todo(
++  todo_id SERIAL PRIMARY KEY,
++  description VARCHAR(255)
++);
+
+# 2021-01-04 21:11:49.003305
++\l
+
+# 2021-01-04 21:11:58.283460
++\q
+
+# 2021-01-04 21:26:55.123524
++\l
+
+# 2021-01-04 21:27:04.611072
++\c per
+
+# 2021-01-04 21:27:12.922676
++\c perntodo
+
+# 2021-01-04 21:27:27.394787
++\?
+
+# 2021-01-04 21:27:38.626773
++\dt
+
+# 2021-01-04 21:27:58.498928
++CREATE TABLE todo(
++  todo_id SERIAL PRIMARY KEY,
++  description VARCHAR(255)
++);
+
+# 2021-01-04 21:28:02.058917
++\dt
+
+# 2021-01-04 21:28:08.922875
++\q
+
+# 2021-01-04 21:31:49.725011
++\c MicroChinaMac
+
+# 2021-01-04 21:31:57.996747
++\dt
+
+# 2021-01-04 21:32:01.428695
++\dT
+
+# 2021-01-04 21:32:04.277057
++\dt
+
+# 2021-01-04 21:32:18.765067
++\d serial_barcode_table
+
+# 2021-01-04 21:36:15.295593
++\q
+
+# 2021-01-04 21:37:14.559012
++select * from serial_barcode_table;
+
+# 2021-01-04 21:45:37.171272
++\q
+
+# 2021-01-04 21:45:47.154835
++\d
+
+# 2021-01-04 21:46:02.811406
++\l
+
+# 2021-01-04 21:47:50.772258
++\d todo
+
+# 2021-01-04 21:48:04.419992
++\d+ tod
+
+# 2021-01-04 21:48:06.620058
++\d+ todo
+
+# 2021-01-04 21:48:13.251787
++\d todo
+
+# 2021-01-04 21:49:14.619119
++\d
+
+# 2021-01-04 21:49:30.709079
++\c perntodo
+
+# 2021-01-04 21:49:34.829030
++\d
+
+# 2021-01-04 21:49:44.484581
++\q
+
+# 2021-01-04 21:49:48.214113
++\d
+
+# 2021-01-04 21:50:04.501080
++drop sequence todo_todo_id_seq
+
+# 2021-01-04 21:50:16.940856
++drop sequence Cascade todo_todo_id_seq
+
+# 2021-01-04 21:50:30.965471
++drop sequence todo_todo_id_seq cascade
+
+# 2021-01-04 21:50:38.125463
++\d
+
+# 2021-01-04 21:50:48.573351
++drop table tocascade
+
+# 2021-01-04 21:50:56.182878
++drop table todo cascade
+
+# 2021-01-04 21:51:00.989297
++\d
+
+# 2021-01-04 21:51:06.589720
++\l
+
+# 2021-01-04 21:51:15.869683
++\c perntodo
+
+# 2021-01-04 21:51:18.685806
++\l
+
+# 2021-01-04 21:51:22.045865
++\d
+
+# 2021-01-04 22:11:58.638455
++\l
+
+# 2021-01-04 22:12:08.871112
++\c MicroChinaMac
+
+# 2021-01-04 22:12:14.071312
++\d
+
+# 2021-01-04 22:12:19.870764
++sele
+
+# 2021-01-04 22:12:31.423226
++select * from serial_barcode_table;
+
+# 2021-01-05 12:17:34.949155
++/l
+
+# 2021-01-05 12:17:41.940218
++\c MicroChinaMac
+
+# 2021-01-05 12:17:56.955446
++select * from information_schema;
+
+# 2021-01-05 12:19:08.410153
++select * from box_table;
+
+# 2021-01-05 12:19:15.263913
++select * from box_table; q
+
+# 2021-01-05 12:20:32.263751
++\x
+
+# 2021-01-05 12:20:36.663807
++select * from box_table; 
+
+# 2021-01-05 12:21:04.645918
++\x atuo
+
+# 2021-01-05 12:21:07.543134
++select * from box_table; 
+
+# 2021-01-05 12:21:21.229146
++\x atuo
+
+# 2021-01-05 12:21:23.942628
++select * from box_table; 
+
+# 2021-01-05 12:22:15.333571
++upda
+
+# 2021-01-05 12:22:52.996860
++update box_table SELECT box_id=a3b9f6a2-4bf8-11eb-ab55-cbaaf5b7127e
+
+# 2021-01-05 12:23:17.612356
++update box_table(box_finished_timestamp) values(NOW()) where  box_id=a3b9f6a2-4bf8-11eb-ab55-cbaaf5b7127e
+
+# 2021-01-05 12:23:30.603906
++update box_table (box_finished_timestamp) values(NOW()) where  box_id=a3b9f6a2-4bf8-11eb-ab55-cbaaf5b7127e
+
+# 2021-01-05 12:23:42.499742
++update box_table box_finished_timestamp values(NOW()) where  box_id=a3b9f6a2-4bf8-11eb-ab55-cbaaf5b7127e
+
+# 2021-01-05 12:24:11.545327
++update box_table set  box_finished_timestamp values(NOW()) where  box_id=a3b9f6a2-4bf8-11eb-ab55-cbaaf5b7127e
+
+# 2021-01-05 12:24:39.890454
++update box_table set  box_finished_timestamp=NOW() where  box_id=a3b9f6a2-4bf8-11eb-ab55-cbaaf5b7127e
+
+# 2021-01-05 12:24:53.042074
++update box_table set  box_finished_timestamp=NOW() where  box_id='a3b9f6a2-4bf8-11eb-ab55-cbaaf5b7127e'
+
+# 2021-01-05 12:24:57.665876
++select * from box_table; 
+
+# 2021-01-06 16:58:41.199212
++\c MicroChinaMac
+
+# 2021-01-06 16:58:49.758519
++select * from serial_barcode_table; 
+
+# 2021-01-07 17:38:42.643528
++\q
+
+# 2021-01-10 12:28:33.315370
++ls
+
+# 2021-01-10 12:28:37.130292
++\l
+
+# 2021-01-10 12:28:45.065824
++\c 
+
+# 2021-01-10 12:28:49.458222
++\c MicroChinaMac
+
+# 2021-01-10 12:28:54.161573
++\dt
+
+# 2021-01-10 12:31:17.090929
++\q
+
+# 2021-01-11 20:46:49.165328
++q
+
+# 2021-01-11 20:46:50.804067
++\q
+
+# 2021-01-13 13:36:34.913727
++/l
+
+# 2021-01-13 13:36:36.897471
++/d
+
+# 2021-01-13 13:36:39.073532
++\t
+
+# 2021-01-13 13:36:44.353048
++\dt
+
+# 2021-01-13 13:36:53.528721
++\c MicroChinaMac
+
+# 2021-01-13 13:36:55.335831
++\dt
+
+# 2021-01-13 13:37:17.432481
++select * from serial_barcode_table; 
+
+# 2021-01-13 13:39:43.549072
++select * from raw_entry_table; 
+
+# 2021-01-13 13:39:58.660535
++select * from bat 
+
+# 2021-01-13 13:40:02.092551
++select * from batch_table;
+
+# 2021-01-13 13:40:08.164461
++select * from box_table;
+
+# 2021-01-13 13:40:14.468223
++select * from shipment_table;
+
+# 2021-01-13 13:40:30.330383
++\q
+
+# 2021-01-13 13:42:34.537827
++\c MicroChinaMac
+
+# 2021-01-13 13:42:39.688780
++select * from serial_barcode_table; 
+
+# 2021-01-14 14:25:12.511211
++\q
+
+# 2021-01-15 14:54:14.035603
++\c MicroChinaMac
+
+# 2021-01-15 14:54:18.956029
++select * from serial_barcode_table; 
+
+# 2021-01-15 14:54:41.829183
++\q
+
+# 2021-01-15 15:00:46.844759
++\c M
+
+# 2021-01-15 15:00:50.900087
++\c MicroChinaMac
+
+# 2021-01-15 15:00:59.084043
++select * from raw_entry_table; 
+
+# 2021-01-15 15:01:25.219629
++select * from raw_entry_table order by entry_added_timestamp desc; 
+
+# 2021-01-15 15:01:41.403314
++select * from raw_entry_table order by entry_added_timestamp desc limit 10; 
+
+# 2021-01-15 15:01:55.066451
++select * from raw_entry_table order by entry_added_timestamp desc limit 10; q 
+
+# 2021-01-15 15:02:00.626283
++select * from raw_entry_table order by entry_added_timestamp desc limit 10;
+
+# 2021-01-15 15:12:48.404013
++\q
+
+# 2021-01-15 15:12:55.868721
++\c MicroChinaMac
+
+# 2021-01-15 15:12:57.715887
++select * from raw_entry_table order by entry_added_timestamp desc limit 10;
+
+# 2021-01-15 15:13:03.925192
++\q
+
+# 2021-01-18 21:35:12.700762
++\c
+
+# 2021-01-18 21:35:17.336297
++\c MicroChinaMac
+
+# 2021-01-18 21:35:21.848236
++select * from raw_entry_table order by entry_added_timestamp desc limit 10;
+
+# 2021-01-18 22:05:24.506509
++\q
+
+# 2021-02-02 16:27:06.576508
++\c MicroChinaMac
+
+# 2021-02-02 16:27:11.687912
++sel
+
+# 2021-02-02 16:27:23.191250
++select * from raw_entry_table order by entry_added_timestamp desc limit 10;
+
+# 2021-02-02 16:29:52.837920
++select * from serial_barcode_table order by entry_added_timestamp desc limit 10;
+
+# 2021-02-02 16:30:00.557055
++select * from serial_barcode_table desc limit 10;
+
+# 2021-02-02 16:30:05.637872
++select * from serial_barcode_table limit 10;
+
+# 2021-02-02 16:31:16.988989
++SELECT * FROM serial_barcode_table WHERE serial_id = addd5bec-648f-11eb-ab8f-b3d65d712e7c
+
+# 2021-02-02 16:31:28.783507
++SELECT * FROM serial_barcode_table WHERE serial_id = 'addd5bec-648f-11eb-ab8f-b3d65d712e7c'
+
+# 2021-02-05 14:19:48.986958
++\d+ code_batch_box_view
+
+# 2021-02-05 14:21:07.567838
++\d+ box_table;
+
+# 2021-02-05 14:21:30.511169
++\d+ box_shipment_name_view;

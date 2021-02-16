@@ -1,0 +1,24 @@
+- link:
+    ~/.gitconfig:
+      relink: true
+      path: gitconfig
+    ~/.vim: vim
+    ~/.vimrc:
+      relink: true
+      path: vimrc
+    ~/.zshrc:
+      force: true
+      path: zshrc
+    ~/.oh-my-zsh/:
+      glob: true
+      path: oh-my-zsh/*
+      force: true
+    ~/.tmux.conf: tmux.conf
+    ~/.npm/:
+      glob: true
+      path: npm/*
+      relink: true
+    ~/.config/:
+      glob: true
+      path: config/*
+      relink: true

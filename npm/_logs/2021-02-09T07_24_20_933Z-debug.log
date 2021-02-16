@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/Cellar/node/14.13.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.13.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle inventory-tracker-gui@0.1.0~prestart: inventory-tracker-gui@0.1.0
+6 info lifecycle inventory-tracker-gui@0.1.0~start: inventory-tracker-gui@0.1.0
+7 verbose lifecycle inventory-tracker-gui@0.1.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle inventory-tracker-gui@0.1.0~start: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/kevin-mbp/Documents/Coding_Dev_Mac/inventory-tracker-gui/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle inventory-tracker-gui@0.1.0~start: CWD: /Users/kevin-mbp/Documents/Coding_Dev_Mac/inventory-tracker-gui
+10 silly lifecycle inventory-tracker-gui@0.1.0~start: Args: [ '-c', 'nw-react-scripts start' ]
+11 timing npm Completed in 1258ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>
