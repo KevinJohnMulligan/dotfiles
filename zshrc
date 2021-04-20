@@ -8,8 +8,9 @@ export ZSH="/Users/kevin-mbp/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="gruvbox"
+SOLARIZED_THEME="dark"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -108,7 +109,7 @@ alias kk="cd ~/Documents/Coding_Dev_Mac"
 alias start-postgres="pg_ctl -D /usr/local/var/postgres start"
 # run node js server and then go back to the directory that called this script
 alias start-MicroChina-server="cd ~/Documents/Coding_Dev_Mac/inventory-tracker-server; nodemon index.js & cd -"
-
+alias t='todo.sh'
 # NB This must be the last line in order for it to work
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
